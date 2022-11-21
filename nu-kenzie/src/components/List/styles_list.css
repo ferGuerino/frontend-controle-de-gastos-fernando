@@ -1,0 +1,9 @@
+.list-content {
+  margin: 16px 0;
+  width: 560px;
+  max-height: 595px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: auto;
+}

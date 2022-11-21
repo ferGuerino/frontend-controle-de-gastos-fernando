@@ -1,0 +1,29 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  height: 88px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+.content-header button {
+  width: 64px;
+  height: 40px;
+  border: none;
+  background-color: var(--gray300);
+  color: var(--gray100);
+  border-radius: var(--border-radius-2);
+  cursor: pointer;
+}
+.content-header button:hover {
+  background-color: var(--gray100);
+  color: var(--gray300);
+}
+
+@media (max-width: 984px) {
+  .main-header {
+    width: 190vh;
+  }
+}

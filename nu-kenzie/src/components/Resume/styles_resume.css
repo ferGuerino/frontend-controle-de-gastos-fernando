@@ -1,0 +1,30 @@
+.resume-content {
+  width: 560px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.resume-menu {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 15px 15px;
+  border: none;
+  border-radius: var(--border-radius-2);
+  background-color: var(--gray300);
+  cursor: pointer;
+  color: var(--gray100);
+}
+.btn:hover {
+  background-color: var(--gray100);
+  color: var(--gray400);
+}
+.btn-todos {
+  background-color: var(--brand100);
+  color: var(--gray400);
+}
+.btn-todos:hover {
+  background-color: var(--brand200);
+}
